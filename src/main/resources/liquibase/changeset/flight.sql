@@ -1,6 +1,7 @@
 -- liquibase formatted sql
 
 -- changeset homychok:1
+
 CREATE TABLE flight (
                         flight_number           VARCHAR(50) NOT NULL PRIMARY KEY,
                         departure_airport_id    BIGINT NOT NULL REFERENCES airport(id),

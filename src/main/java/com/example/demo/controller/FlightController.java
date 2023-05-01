@@ -19,7 +19,6 @@ public class FlightController {
     public List<FlightDTO> getFlights(FilterDTO filterDTO) {
         return flightService.getFlightsFiltered(filterDTO);
     }
-
         @GetMapping("/{number}")
         public Flight getFlight(@PathVariable String number) {
             return flightService.getFlightById(number);

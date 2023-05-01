@@ -10,7 +10,6 @@ import javax.persistence.*;
 @Getter
 @Setter
 public class Airport {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
