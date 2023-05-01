@@ -1,3 +1,4 @@
+
 -- liquibase formatted sql
 
 -- changeset homychok:1

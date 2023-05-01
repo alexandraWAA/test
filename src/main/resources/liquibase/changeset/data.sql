@@ -1,6 +1,7 @@
 -- liquibase formatted sql
 
 -- changeset homychok:1
+
 INSERT INTO airport (name, city, address) VALUES
     ('Шереметьево', 'Москва', 'адрес №1'),
     ('Толмачево', 'Новосибирск', 'адрес №2'),

@@ -1,4 +1,5 @@
 databaseChangeLog:
+
   - include:
       file: liquibase/changeset/airport.sql
 

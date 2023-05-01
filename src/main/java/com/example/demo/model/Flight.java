@@ -11,7 +11,6 @@ import java.time.Instant;
 @Getter
 @Setter
 public class Flight {
-
     @Id
     private String flightNumber;
     @ManyToOne

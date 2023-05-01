@@ -5,7 +5,6 @@ import lombok.Data;
 
 import java.time.Instant;
 
-
 @Data
 public class FlightDTO {
     private String flightNumber;

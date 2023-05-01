@@ -34,7 +34,6 @@ public class FlightSpecification {
             return criteriaBuilder.or(predicateDepart, predicateArrival);
         };
     }
-
     public static Specification<Flight> byCityName(String cityName){
         return (root, query, criteriaBuilder) -> {
             if (!StringUtils.hasText(cityName)) {

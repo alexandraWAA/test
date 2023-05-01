@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 
 import static com.example.demo.specification.FlightSpecification.*;
 
-
 @Service
 @RequiredArgsConstructor
 public class FlightService {
